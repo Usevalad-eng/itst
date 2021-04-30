@@ -8,23 +8,20 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>
-        <p>
+    
+        
             <ul>
                 <li><a href="#first">Способы подключения CSS к документу</a></li>
                 <li><a href="#second">Правила построения CSS</a></li>
-                <li><a href="#third">Глава 3</a></li>
-                <li><a href=“#menu4”>Глава 4</a></li>
-                <li><a href=“#menu5”>Глава 5</a></li>
+                <li><a href="#third">Пример таблицы стилей</a></li>
             </ul>
-            
-            <h1>CSS</h1>
-           <strong>( англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, 
-            написанного с использованием языка разметки.</strong> 
-Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, 
+
+                        <h1>CSS</h1>
+           <p id="dontknow"><strong>Css ( англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, 
+            написанного с использованием языка разметки.</strong></p> 
+           <p>Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, 
 написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, 
-например, к SVG или XUL.
-        </p>
+например, к SVG или XUL.</p>
 <h2 id="first">Способы подключения CSS к документу</h2>
 
 <p>Способы подключения CSS к документу
@@ -35,18 +32,18 @@
     <p>То есть, эти таблицы стилей могут быть подключены, внедрены в описываемый ими веб-документ четырьмя различными способами:
     <ol>
 <li> когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством тега &it;link&gt;, 
-располагающегося в этом документе между тегами &it;head&gt; и &it;/head&gt;. 
-(Тег &it;link&gt; будет иметь атрибут href, имеющий значением адрес этой таблицы стилей).
+располагающегося в этом документе между тегами <span>&lt;head&gt;</span> и <span>&lt;/head&gt;</span>. 
+(Тег <span>&lt;link&gt;</span>; будет иметь атрибут <span class="blue">href</span>, имеющий значением адрес этой таблицы стилей).
  Все правила этой таблицы действуют на протяжении всего документа;</li>
  
 <li> когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством директивы @import,
-    располагающейся в этом документе между тегами &it;style&gt; и &it;/style&gt; 
-    (которые, в свою очередь, располагаются в этом документе между тегами &it;head&gt; и &it;/head&gt;) 
-    сразу после тега &it;style>, которая также указывает (в своих скобках, после слова url) на адрес этой таблицы стилей. 
+    располагающейся в этом документе между тегами <span>&lt;style&gt;</span> и <span>&lt;/style&gt;</span> 
+    (которые, в свою очередь, располагаются в этом документе между тегами <span>&lt;head&gt</span>; и <span>&lt;/head&gt</span>;) 
+    сразу после тега <span>&lt;style&gt;</span>, которая также указывает (в своих скобках, после слова url) на адрес этой таблицы стилей. 
     Все правила этой таблицы действуют на протяжении всего документа;</li>
  
-<li>- когда таблица стилей описана в самом документе, она может располагаться в нём между тегами &it;style&gt; и &it;/style&gt; 
-    (которые, в свою очередь, располагаются в этом документе между тегами &it;head&gt; и &it;/head&gt;). 
+<li>- когда таблица стилей описана в самом документе, она может располагаться в нём между тегами <span>&lt;style&gt;</span> и <span>&lt;/style&gt;</span> 
+    (которые, в свою очередь, располагаются в этом документе между тегами &lt;head&gt; и &lt;/head&gt;). 
     Все правила этой таблицы действуют на протяжении всего документа;</li>
 
 <li>- когда таблица стилей описана в самом документе, она может располагаться в нём в теле какого-то отдельного тега (
@@ -65,30 +62,30 @@
      Селекторы могут группироваться в одной строке через запятую. 
     В таком случае свойство применяется к каждому из них.</p>
 
-<h2>Пример таблицы стилей</h2> 
+<h2 id="third">Пример таблицы стилей</h2> 
 
         <p>Пример таблицы стилей (в таком виде она может быть либо размещена в отдельном файле .css либо же обрамлена тегами &it;style&gt; 
 и размещена в «шапке» той самой веб-страницы, на которую она действует):
 <pre>
-p {
-   font-family: arial, helvetica, sans-serif; 
+<span class="clyellow">p</span>  {
+<span class="cl_blue">font-family</span>: <span class="cl_orange">arial, helvetica, sans-serif;</span>  
 }
-h2 {
-   font-size: 20pt; 
-   color: red; 
-   background: white; 
+<span class="clyellow">h2</span>  {
+    <span class="cl_blue">font-size</span>: <span class="cl_green">20pt;</span>  
+    <span class="cl_blue">color</span>: <span class="cl_orange">red;</span> 
+    <span class="cl_blue">background</span>: <span class="cl_green">white;</span> 
 }
-.note {
-   color: red; 
-   background-color: yellow; 
-   font-weight: bold; 
+<span class="clyellow">.note</span>  {
+    <span class="cl_blue">color</span>: <span class="cl_orange">red;</span> 
+    <span class="cl_blue">background-color</span>: <span class="cl_orange">yellow;</span> 
+    <span class="cl_blue">font-weight</span>: <span class="cl_orange">bold;</span> 
 }
-p#paragraph1 {
-   padding-left: 10px;
+<span class="clyellow">p#paragraph1</span>  {
+    <span class="cl_blue">padding-left</span>: <span class="cl_green">10px;</span>
 }
 </pre>
-        </p>
-    </div>
+<a href="https://google.com" target="_blank">google.com</a></p>
+    
 </body>
 </html>
 

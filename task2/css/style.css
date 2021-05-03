@@ -1,0 +1,24 @@
+p
+{
+font-size: 30px;
+color: #808080;
+word-spacing: 2ch;
+letter-spacing: 3ch;
+}
+ins + span {
+    text-decoration: overline; 
+}
+.prostoy {
+font-weight: bolder;
+}
+ins > s {
+    text-shadow: 1px 1px 1px orange;
+}
+.big
+{
+    font-size: 35px;
+}
+.clpink
+{
+    color: rgba(163, 30, 30, 0,5);
+}

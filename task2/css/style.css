@@ -18,7 +18,19 @@ ins > s {
 {
     font-size: 35px;
 }
-.clpink
+#clpink
 {
-    color: rgba(163, 30, 30, 0,5);
+    color: rgba(226, 43, 134, 0.5);
+}
+.clpinkk
+{
+    color: rgba(226, 43, 134, 0.5);
+}
+.clwhite
+{
+color: aliceblue;  
+}
+.clwhite:hover
+{
+color: rgb(84, 86, 88);  
 }

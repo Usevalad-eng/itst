@@ -1,0 +1,83 @@
+
+@font-face 
+{
+    font-family: "LobsterRegular";
+    src: url("./font/LobsterRegular.ttf") format(ttf);
+    
+}
+html {
+    font-family: "Newsreader, regular 400";
+}
+h1 
+{
+font-family: "LobsterRegular";
+font-weight: bold;
+font-size: 24px;
+/* не поkeчается подключить шрифт */
+}
+h2 
+{
+font-family: "LobsterRegular";
+font-weight: oblique;
+font-size: 18px;
+}
+p
+{
+font-weight: 14px;
+font-size: normal;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th
+{
+    width: 100px;
+    height: 60px;
+    border: 2px solid #000;
+    background: rgb(63, 9, 163);
+    color: #fff;
+    font-size: 20px;  
+}
+
+td{
+    width: 200px;
+    height: 60px;
+    border: 2px solid #000;
+    background: rgb(154, 218, 238);
+    color: #fff;
+    font-size: 20px;
+}
+
+tr:nth-child(3) td{
+    background-color: rgb(150, 153, 153);
+}
+pre
+{
+font-weight: 14px;
+font-size: normal;
+}
+
+img
+{
+float: right;
+border-radius: 10px;
+}
+span
+{
+    color: crimson;
+}
+#kartinka
+{
+    list-style-image: url(../img/js.png);
+    list-style-type: circle;
+}
+
+/* большой размер маркера или вообще нет? */
+.tekst
+{
+   text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px orange;
+    text-decoration: line-through;
+}

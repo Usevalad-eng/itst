@@ -8,7 +8,7 @@ html, body{
 .out{
     width: 400px;
     height: 400px;
-    background: rgb(16, 218, 26);
+    background: rgb(40, 27, 223);
     position: relative;
     top: calc(50% - 200px);
     left: calc(50% - 200px);
@@ -16,7 +16,7 @@ html, body{
 .in{
     width: 100px;
     height: 100px;
-    background: rgb(50, 47, 255);
+    background: greenyellow;
     position: relative;   
     font-size: 30px;
     color: #000;
@@ -24,18 +24,13 @@ html, body{
     line-height: 100px;
 }
 .in1{
-   top: calc(50% - 200px);
-   left: calc(50% - 200px);
+    margin: 50px;
 }
 .in2{
-  top: -100px;
-  left: 300px;
+    
 }
 .in3{
-  top: 100px;
-  left: 0px;
+   
 }
 .in4{
-  top: 0px;
-  left: 300px;
-}
+    

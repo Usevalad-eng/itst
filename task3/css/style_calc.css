@@ -1,0 +1,47 @@
+table{
+    width: 50%;
+    background-color: rgb(250, 246, 246); 
+    max-height: none;
+}
+td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+tr:nth-child(3) td:nth-child(4)
+{
+    color: brown;
+}
+/* tr:nth-child(2) td
+{
+    color: brown;
+} */
+tr:nth-child(1n+2) td:nth-child(1n+6), td:nth-child(1n+7)
+{
+    color: rgb(126, 6, 6);
+}
+tr:nth-child(2) td:nth-child(6)
+{
+    background-image: url(../img/May-1.jpg);
+    background-size: cover;
+}
+tr:nth-child(3) td:nth-child(7)
+{
+    background-image: url(../img/May-9.jpg);
+    background-size: cover;
+}
+tr:nth-child(4) td:nth-child(2)
+{
+    background-image: url(../img/May-11.png);
+    background-size: cover;
+}
+tr:nth-child(2) td:nth-child(1), tr:nth-child(2) td:nth-child(2),
+tr:nth-child(2) td:nth-child(3), tr:nth-child(2) td:nth-child(4), tr:nth-child(2) td:nth-child(5)
+{
+    background-color: rgb(133, 131, 131);
+}
+tr:nth-child(7) td:nth-child(2), tr:nth-child(7) td:nth-child(3), tr:nth-child(7) td:nth-child(4),
+tr:nth-child(7) td:nth-child(5), tr:nth-child(7) td:nth-child(6), tr:nth-child(7) td:nth-child(7)
+{
+    background-color: rgb(133, 131, 131);
+}

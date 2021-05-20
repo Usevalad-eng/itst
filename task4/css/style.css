@@ -2,10 +2,10 @@
 @font-face 
 {
     font-family: "LobsterRegular";
-    src: url("./font/LobsterRegular.ttf") format(ttf);
+    src: url("../font/LobsterRegular.ttf") format(ttf);
     
 }
-html {
+h2 {
     font-family: "Newsreader, regular 400";
 }
 h1 
@@ -17,7 +17,6 @@ font-size: 24px;
 }
 h2 
 {
-font-family: "LobsterRegular";
 font-weight: oblique;
 font-size: 18px;
 }

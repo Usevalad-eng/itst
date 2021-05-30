@@ -1,0 +1,128 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.box{
+    width: 100px;
+    height: 300px;
+    background: rgb(238, 232, 232);
+}
+.box_l{
+    width: 250px;
+    height: 250px;
+    background: rgb(238, 232, 232);}
+
+@media (min-width: 768px) {
+    .container{
+        width: 768px;
+    }
+    .box{
+        width: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .container{
+        width: 1024px;
+    }
+    .box{
+        height: 200px;  
+    }
+}
+@media (min-width: 1600px) {
+    .container{
+        width: 1600px;
+    }
+    .box{
+        height: 400px;
+    }
+}
+
+
+
+
+@font-face 
+{
+    font-family: "LobsterRegular";
+    src: url("../font/LobsterRegular.ttf") format(ttf);
+    
+}
+h2 {
+    font-family: "Newsreader, regular 400";
+}
+h1 
+{
+font-family: "LobsterRegular";
+font-weight: bold;
+font-size: 24px;
+
+}
+h2 
+{
+font-weight: oblique;
+font-size: 18px;
+}
+p
+{
+font-weight: 14px;
+font-size: normal;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th
+{
+    width: 100px;
+    height: 60px;
+    border: 2px solid #000;
+    background: rgb(63, 9, 163);
+    color: #fff;
+    font-size: 20px;  
+}
+
+td{
+    width: 200px;
+    height: 60px;
+    border: 2px solid #000;
+    background: rgb(154, 218, 238);
+    color: #fff;
+    font-size: 20px;
+}
+
+tr:nth-child(3) td{
+    background-color: rgb(150, 153, 153);
+}
+pre
+{
+font-weight: 14px;
+font-size: normal;
+}
+
+img
+{
+float: right;
+border-radius: 10px;
+}
+span
+{
+    color: crimson;
+}
+#kartinka
+{
+    list-style-image: url(../img/js.png);
+    list-style-type: circle;
+}
+
+
+.tekst
+{
+   text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px orange;
+    text-decoration: line-through;
+}

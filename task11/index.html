@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-12">
+                <form action="" method="post" name="reg_form" class="reg-form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="FIO">ФИО:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="FIO" id="FIO" value="" placeholder="Введите ФИО">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="PASS">пароль:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="PASS" id="PASS" value="" placeholder="Введите пароль">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="TEL">ТЕЛЕФОН:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="TEL" id="TEL" value="" placeholder="Введите ТЕЛЕФОН">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="email">почта:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="email" id="email" value="" placeholder="Введите почту">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="dofbirth">ДР:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="date" name="dofbirth" id="dofbirth" value="" placeholder="Введите ДР">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="hobby">хобби:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                
+                                <input type="radio" name="hobby" id="hobby" value="hob1">виски<br/>
+                            	<input type="radio" name="hobby" id="hobby" value="rad2">коньяк<br/>
+                                <input type= "submit" value="Отправить">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="edu">образование:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                
+                                <input type="checkbox" name="edu" id="edu" value="ed1">вуз<br/>
+                            	<input type="checkbox" name="edu" id="edu" value="ed2">школа<br/>
+                                <input type= "submit" value="Отправить">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="sex">Пол:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <select name="sex" id="sex">
+                                    <option value="0">Выберите пол</option>
+                                    <option value="f">Женский</option>
+                                    <option value="m">Мужской</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="avatar">Аватар:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="file" name="avatar" id="avatar" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="submit" name="submit" id="submit" value="Отправить">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-lg-4 col-md-4 d-none d-md-block d-lg-block"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-radio{
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 10px 20px;
+}
+input{
+    display: none;
+}
+label::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(73, 71, 71);
+    margin: 1em auto;
+    top: 10px;
+    left: -30px;
+}
+input:checked+label::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: rgb(94, 91, 91);
+    top: 27px;
+    left: -28px;
+}

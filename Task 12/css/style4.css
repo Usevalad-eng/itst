@@ -1,0 +1,48 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.a{
+    display:block;
+    width: 200;
+    height: 200;
+    position: relative;
+    
+    top: 10px;
+    left: -100px;
+    }
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: chocolate;
+    position: relative;
+    box-sizing: border-box;
+    border-left: 10px solid #456783;
+    border-top: 10px solid #456783;
+    border: 10px solid #456783;
+    transition-property: background, width, hight;
+    transition-delay:inherit;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transform: rotate(180deg);
+}
+
+.box:hover{
+    background: brown;
+    width: 0px;
+    height: 0px;
+    border: 200px solid #456783;
+}
+#box:target{
+    background: #456783;
+    width: 200px;
+    height: 100px;
+}

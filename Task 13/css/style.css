@@ -45,7 +45,7 @@ a{
     height: 100px;
     border-radius: 50%;
     background: hotpink;
-    transition-property: background,width,height;
+    transition-property: background, width, height;
     transition-timing-function: linear;
     transition-duration: 1s;
 }

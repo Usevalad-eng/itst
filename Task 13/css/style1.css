@@ -48,7 +48,7 @@ a{
     animation: rotate 10s linear infinite;
 }
 #box:target .ball{
-    animation: run 4s linear infinite,rotate 4s linear 2;
+    animation: run 4s linear infinite, rotate 4s linear 2;
 }
 @keyframes run{
     0%{

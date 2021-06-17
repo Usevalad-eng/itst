@@ -1,0 +1,200 @@
+/*
+@font-face 
+{
+    font-family: "LobsterRegular";
+    src: url("../font/LobsterRegular.ttf") format(ttf);
+    
+}
+h2 {
+    font-family: "Newsreader, regular 400";
+}
+h1 
+{
+font-family: "LobsterRegular";
+font-weight: bold;
+font-size: 24px;
+
+}
+h2 
+{
+font-weight: oblique;
+font-size: 18px;
+}
+p
+{
+font-weight: 14px;
+font-size: normal;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th
+{
+    width: 100px;
+    height: 60px;
+    border: 2px solid #000;
+    background: rgb(63, 9, 163);
+    color: #fff;
+    font-size: 20px;  
+}
+
+td{
+    width: 200px;
+    height: 60px;
+    border: 2px solid #000;
+    background: rgb(154, 218, 238);
+    color: #fff;
+    font-size: 20px;
+}
+
+tr:nth-child(3) td{
+    background-color: rgb(150, 153, 153);
+}
+pre
+{
+font-weight: 14px;
+font-size: normal;
+}
+
+img
+{
+float: right;
+border-radius: 10px;
+}
+span
+{
+    color: crimson;
+}
+#kartinka
+{
+    list-style-image: url(../img/js.png);
+    list-style-type: circle;
+}
+
+
+.tekst
+{
+   text-align: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px orange;
+    text-decoration: line-through;
+}
+
+
+*/
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    position: relative;
+    height: 100%;
+}
+.boxx{
+    width: 400px;
+    height: 400px;
+    
+    
+    display: flex;
+    
+    position: relative;
+}
+
+/*a{
+    position: fixed;
+    display: block;
+    color: #fff;
+    background: black;
+    padding: 15px 20px;
+    top: 40px;
+}
+/*
+.start{
+    left: calc(50% - 150px);
+}
+.end{
+    left: calc(50% + 30px);
+}
+
+.boxx{
+    width: 400px;
+    height: 400px;
+    
+    
+    display: flex;
+    
+    position: relative;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    position: relative;
+    top:0;
+    left: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box:target{
+    animation: rotate 10s linear infinite;
+}
+#box:target .ball{
+    animation: run 4s linear infinite, rotate 4s linear 2;
+}
+@keyframes run{
+    0%{
+        top:0;
+        left: 0;
+    }
+    25%{
+        top:0;
+        left: 300px;
+    }
+    50%{
+        top:300px;
+        left: 300px;
+    }
+    75%{
+        top:300px;
+        left: 0;
+    }
+    100%{
+        top:0;
+        left: 0;
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.ball:hover{
+    width: 300px;
+    height: 300px;
+    background: indigo;
+}
+
+.half-circle {
+    height:15px;
+    width: 7px;
+    border-radius: 150px 0 0 150px;
+    border-top: 20px solid #000;
+    border-left: 20px solid #000;
+    border-bottom: 20px solid #000;
+    transform:  rotate(-90deg);
+    position: relative;
+    
+  }
+  */

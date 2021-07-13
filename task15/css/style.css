@@ -237,3 +237,6 @@ header{
     width: 23%;
     display: inline-block;
 }
+.item-pic img{
+    width: 20%;
+}

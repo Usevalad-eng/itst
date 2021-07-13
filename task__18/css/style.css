@@ -1,0 +1,177 @@
+body{
+    background: black;
+}
+header{
+    
+    padding: 28px 0 0 0;
+    width: 100%;
+    position: relative;
+    background: url("../img/Screenshot_1.png") repeat;
+}
+.logo{
+    position: relative;
+    margin-top: 13px;
+    background: url("../img/Screenshot_1.png") repeat;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo span{
+    color: #8c8c8c;
+    font-size: 10px;
+}
+.head-contact{
+    font-size: 13px;
+    display: flex;
+    float: right;
+}
+.head-contact span{
+    color: #8c8c8c;
+}
+.head-contact a{
+    color: #dc6511;
+    text-decoration: none;
+    margin-left: 5px;
+}
+menu{
+    width: 1280px;
+    background: url("../img/Screenshot_1.png") repeat;
+}
+ul.menu1{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+ul.menu1 > li{
+    position: relative;
+}
+ul.menu1 > li > a{
+    text-decoration: none;
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/Screenshot_1.png") repeat;
+    color: #fff;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+
+ul.menu1 > li:hover > a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 1px;
+    background: url("../img/Screenshot_1.png") repeat;
+}
+
+ul.menu1 > li > a > span{
+    line-height: 24px;
+}
+ul.menu1 > li > a:hover{
+    background: url("../img/Screenshot_1.png") repeat;
+}
+ul.menu1 > li:hover > a{
+    background: url("../img/Screenshot_1.png") repeat; 
+}
+ul.menu1 > li > ul{
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    padding: 20px 30px;
+    background: url("../img/Screenshot_1.png") repeat;
+    display: none;
+}
+ul.menu1 > li:hover > ul{
+    display: block;
+}
+ul.menu1 > li > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: 600;
+}
+ul.menu1 > li > ul > li > a:hover{
+    background: url("../img/Screenshot_1.png") repeat;
+}
+
+
+.wrapper{
+    background: #fff;
+    box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 10%);
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 0;
+    background: url("../img/Screenshot_1.png") repeat;
+}
+@media (max-width:1169px){
+    .wrapper{
+        max-width: 100% !important;
+    }
+}
+@media (min-width:1170px){
+    .wrapper{
+        margin-top: 0px;
+    }
+    .main-slider .carousel-indicators{
+        margin-bottom: 100px;
+    }
+    .main-slider .carousel-item{
+        height: 542px;
+    }
+}
+.main-tech{
+    position: relative;
+    padding: 40px 85px 65px;
+    background: url("../img/Screenshot_1.png") repeat;
+}
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title h2{
+    color: #595252;
+    font-size: 34px;
+    font-family: 'Asap', sans-serif;
+}
+.tech-item{
+    border: 1px solid #ddd;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+}
+.tech-item-head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tech-item-pic{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.tech-item-pic img{
+    width: 40%;
+}
+.tech-item-text{
+    font-size: 11px;
+    line-height: 20px;
+}
+.tech-item-text h4{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.tech-item-text p{
+    text-align: center;
+    margin-bottom: 0;
+}
+

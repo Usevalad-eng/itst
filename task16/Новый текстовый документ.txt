@@ -1,0 +1,5 @@
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+https://www.templatemonsterpreview.com/ru/demo/47305.html
+sass
+https://www.c-sharpcorner.com/UploadFile/44b888/install-and-using-sass-on-windows/
+https://www.templatemonsterpreview.com/ru/demo/57833.html?_gl=1*165u75r*_ga*MzU5MzkzMTQ3LjE2MjE4NTk2MTg.*_ga_FTPYEGT5LY*MTYyNjM2NjU4NS4xNC4xLjE2MjYzNjg5MzIuNTE.&_ga=2.259915658.1256642364.1626363646-359393147.1621859618&_gac=1.112996086.1624292848.CjwKCAjw8cCGBhB6EiwAgOReyxip4EJ7B8EY1MRznZEpI8ySg0xLvV6nwEa_rejKLG7267bD_kPY0BoC12EQAvD_BwE

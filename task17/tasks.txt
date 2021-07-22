@@ -1,0 +1,10 @@
+﻿1. Преобразовать page.scss в формат SASS. Для формирования классов с длинным названием и вложенностью использовать оператор &.
+2. Создать все переменные для цветов и шрифтов (кроме иконочного)
+3. Написать миксин для вставки иконочного шрифта ("Font Awesome 5 Free")
+4. Для вывода цветов для социальных сетей использовать мапы.
+5. 
+
+https://tproger.ru/translations/complete-sass-guide/
+https://sass-scss.ru/documentation/ispolzovanie_sass/ispolzovanie_v_rackrailsmerb/
+
+https://sass-scss.ru/documentation/sassscript/mapi/

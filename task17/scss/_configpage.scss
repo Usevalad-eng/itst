@@ -1,0 +1,22 @@
+$fontfamily: 'Roboto', sans-serif;
+$blue: #6C8CD5;
+$grey: #989898;
+$darkblue: #00294e;
+
+
+@mixin fa {
+    content:"\f0e0";font-family:"Font Awesome 5 Free";
+}
+
+
+@mixin base_button {
+    min-width: 240px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 10px 27px;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+    text-align: center;
+}

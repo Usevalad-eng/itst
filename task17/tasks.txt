@@ -8,3 +8,4 @@ https://tproger.ru/translations/complete-sass-guide/
 https://sass-scss.ru/documentation/ispolzovanie_sass/ispolzovanie_v_rackrailsmerb/
 
 https://sass-scss.ru/documentation/sassscript/mapi/
+https://ru.hexlet.io/courses/sass-programming/lessons/list-and-maps/theory_unit

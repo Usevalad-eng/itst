@@ -270,3 +270,96 @@ padding: 5px;
     box-sizing: border-box;
     background: red;   
 }
+
+
+
+
+.main-tech3{
+    position: relative;
+    padding: 40px 105px 65px 230px;
+    background: url("../img/Screenshot_4.png") repeat;
+    width: 100%;
+}
+
+
+.main-tech4{
+    position: relative;
+    padding: 40px 205px;
+    background: url("../img/Screenshot_5.png");
+    width: 100%;
+}
+.tech4{
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 300px;
+}
+.tech-item4-text{
+    width: 30%;
+    font-size: 31px;
+    line-height: 20px;
+    font: bold;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+}
+.form-control4{
+    width: 30%;
+    position: relative;
+    left: 90px;
+}
+.form-control4 button{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    background: red;   
+}
+
+
+.main-tech5{
+    position: relative;
+    padding: 40px 205px;
+    background: url("../img/Screenshot_7.png");
+    width: 100%;
+    
+}
+.tech5{
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tech-item5-text{
+    width: 30%;
+    font-size: 31px;
+    line-height: 20px;
+    font: bold;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+}
+.tech-item5-pic{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.tech-item5-pic img{
+    width: 100%;
+}
+.form-control5{
+    width: 30%;
+    position: relative;
+    left: 90px;
+}
+.form-control5 button{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    background: red;   
+}

@@ -6,12 +6,12 @@ header{
     padding: 28px 0 0 0;
     width: 100%;
     position: relative;
-    background: url("../img/Screenshot_1.png") repeat;
+    background: url("../img/Screenshot_1.png");
 }
 .logo{
     position: relative;
     margin-top: 13px;
-    background: url("../img/Screenshot_1.png") repeat;
+    
 }
 .logo a{
     text-decoration: none;
@@ -35,7 +35,7 @@ header{
 }
 menu{
     width: 1280px;
-    background: url("../img/Screenshot_1.png") repeat;
+    
 }
 ul.menu1{
     list-style: none;
@@ -131,7 +131,7 @@ ul.menu1 > li > ul > li > a:hover{
 .main-tech{
     position: relative;
     padding: 40px 85px 65px;
-    background: url("../img/Screenshot_1.png") repeat;
+    background: url("../img/obr.jpg") repeat;
 }
 .title{
     text-align: center;
@@ -365,7 +365,7 @@ padding: 5px;
     background: red;   
 }
 .tech-item5{
-    
+    border: 1px solid #ddd;
     width: 330px;
     padding: 25px 15px;
     margin-bottom: 20px;
@@ -381,4 +381,155 @@ padding: 5px;
 video{
     position: relative;
     left: 100px;
+    background: url("../img/video_1.png");
+}
+
+
+
+
+
+.main-tech6{
+    position: relative;
+    padding: 60px 205px;
+    background: url("../img/Screenshot_8.png");
+    width: 100%;
+    margin: 0;
+    
+}
+.tech-item6-pic{
+    display: flex;
+    
+    margin: 10px;
+}
+.form-control6{
+    width: 30%;
+    position: relative;
+    left: 350px;
+}
+.form-control6 button{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    background: red;   
+}
+.title6{
+    display: flex;
+    justify-content: center;
+}
+.title66{
+    display: flex;
+    justify-content: center;
+}
+.form-control-66 button{
+    background-color: red;
+}
+
+
+.main-tech7{
+    position: relative;
+    padding: 30px 105px;
+    background: url("../img/Screenshot_9.png");
+    width: 100%;
+    margin: 0;
+    color: white;
+    
+}
+
+
+
+.main-tech8{
+    position: relative;
+    padding: 30px 105px;
+    background: url("../img/Screenshot_10.png");
+    width: 100%;
+    margin: 0;
+    color: white;
+    
+}
+.title8{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: -200px;
+
+}
+.title8{
+    display: flex;
+    justify-content: center;
+}
+.tech-item8-pic{
+    display: flex;
+    justify-content:left;
+}
+.title88{
+    display: flex;
+    justify-content: center;
+}
+.title888{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.main-tech9{
+    position: relative;
+    padding: 30px 105px;
+    background: url("../img/Screenshot_11.png");
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+.form-control{
+    width: 30%;
+    position: relative;
+    left: 90px;
+}
+.form-control button{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    background: red;   
+}
+
+
+
+
+.main-tech10{
+    position: relative;
+    padding: 30px 105px;
+    background: url("../img/Screenshot_12.png");
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+
+
+
+
+.main-tech11{
+    position: relative;
+    padding: 30px 15px;
+    background: url("../img/Screenshot_13.png");
+    width: 100%;
+    margin: 0;
+    color: blue;
+}
+
+
+
+
+
+.footer1{
+    position: relative;
+    padding: 30px 15px;
+    background: url("../img/Screenshot_14.png");
+    width: 100%;
+    margin: 0;
+    color: black;
 }

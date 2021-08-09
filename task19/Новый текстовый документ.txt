@@ -1,0 +1,3 @@
+https://younglinux.info/python/task/sum-digits
+https://tproger.ru/problems/popular-ways-to-swap/
+http://www.quizful.net/interview/problems/swap-without-temp-var

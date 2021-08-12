@@ -34,3 +34,9 @@
 	undefined + null + ""
 	"" / true
 	null / false
+
+
+воен пасс диплом зел труд вопнд ровд раст 
+const random = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}

@@ -9,6 +9,7 @@ function fillArray(a, n){
     return a;
 }
 
+//линейный поиск 
 /*function maxFromMassive(a){
 
 let n = a.length;
@@ -42,7 +43,21 @@ function indexOfMax(arr) {
     return maxIndex;
 }
 
-
+/*function linearSearch(value, list) {
+    let found = false;
+    let position = -1;
+    let index = 0;
+ 
+    while(!found && index < list.length) {
+        if(list[index] == value) {
+            found = true;
+            position = index;
+        } else {
+            index += 1;
+        }
+    }
+    return position;
+}*/
 
 let b = [];
 b = fillArray(b, 10);
@@ -50,3 +65,6 @@ console.log(b);
 
 let maxIndex = indexOfMax(b);
 console.log(maxIndex);
+
+/*let position = linearSearch(maxIndex,b);
+console.log(position);*/

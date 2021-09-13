@@ -13,3 +13,4 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Ma
 -два репозитория алг
 -кодворс
 https://schoolsw3.com/js/js_statements.php
+https://www.tutorialkart.com/

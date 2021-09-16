@@ -25,6 +25,7 @@ console.log(arr);*/
 //let arr = [];
 //let array1 = arr.fill(1, 10, 10);
 //console.log(arr);
+
 let a = [], n = 3, value = 3;
 a.length = n;
 let b = a.fill(value, 0, n);

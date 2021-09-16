@@ -14,3 +14,6 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Ma
 -кодворс
 https://schoolsw3.com/js/js_statements.php
 https://www.tutorialkart.com/
+
+http://spacemath.xyz/nod_i_nok/
+//матем

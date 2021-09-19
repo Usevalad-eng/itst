@@ -23,24 +23,35 @@ let sum = 0;
 };
 console.log(sum);
 
-/*
-let s = {};
-if(s == undefined){
-    console.log("empty");
-}
-*/
-/*
+
 let obj = {
-    name: 20,
-    age: 30,
+    age1: 20,
+    age2: 30,
 }
+
 let dum = 0;
-function plus (obj){
-    for(let key in obj){
-        if(typeof(obj[key]) = Number){
-        dum = obj[key] * 2;
-        }
+function plus(object){
+    for(let key in object){
+        
+        object[key] *= 2;
+        
     }
 }
-console.log(plus(obj));
-*/
+plus(obj);
+
+console.log(obj);
+
+
+
+
+let admin = {
+    name: "Вася",
+    age: 30,
+};
+
+for(let key in admin){
+     // key - имя свойства(поля)
+    // user[key] - значение  свойства(поля)
+    console.log(key, admin[key]);
+}
+

@@ -15,3 +15,4 @@ field.show();
 let robot = new Robot(field,0,0,0);
 robot.move();
 console.log(robot.x,robot.y);
+robot.move();

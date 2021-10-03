@@ -1,0 +1,26 @@
+https://askdev.ru/q/kak-sozdat-dvumernyy-massiv-v-javascript-703/
+
+function matrix( rows, cols, defaultValue){
+
+  var arr = [];
+
+  // Creates all lines:
+  for(var i=0; i < rows; i++){
+
+      // Creates an empty line
+      arr.push([]);
+
+      // Adds cols to the empty line:
+      arr[i].push( new Array(cols));
+
+      for(var j=0; j < cols; j++){
+        // Initializes:
+        arr[i][j] = defaultValue;
+      }
+  }
+
+return arr;
+}
+
+x = matrix( 2 , 3,''); // 2 lines, 3 cols filled with empty string
+y = matrix( 10, 5, 0);// 10 lines, 5 cols filled with 0

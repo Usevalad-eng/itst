@@ -8,14 +8,15 @@ import { Call } from "./call.js";
 
 
 
-let hua = new Hua("11", "102", "131212");
-let nok = new Nok("12", "103", "141212");
+let hua = new Hua("11", "102", "131212", "vasia");
+let nok = new Nok("12", "103", "141212", "semion");
 
 let call = new Call();
 
 hua.getWeight();
 hua.getModel();
 hua.getNumber();
+
 nok.getWeight();
 nok.getModel();
 nok.getNumber();

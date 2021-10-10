@@ -2,7 +2,7 @@ import {Phone} from "./phone.js";
 
 class Call{
     trea(phone){
-        console.log(`${phone.weight}  ${phone.model}  ${phone.number}`);
+        console.log(`${phone.name} ${phone.number}`);
     }
 }
 

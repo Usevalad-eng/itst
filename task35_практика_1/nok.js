@@ -1,8 +1,8 @@
 import {Phone} from "./phone.js";
 
 class Nok extends Phone{
-    constructor(weight, model, number){
-        super(weight, model, number);
+    constructor(weight, model, number, name){
+        super(weight, model, number, name);
     }
 
     getWeight(){

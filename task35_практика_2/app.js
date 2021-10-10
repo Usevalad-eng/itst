@@ -23,5 +23,6 @@ Ph.push(student);
 Ph.push(asp);
 
 Ph.forEach(function(item) {
-    call.trea(item);
+    call.trea(item);//работает для студента и аспиранта 
+    //student.getS(item); работает только для студента 
 })

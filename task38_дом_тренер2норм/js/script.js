@@ -50,7 +50,7 @@ out += "</div>";
 document.write(out);
 
 
-fruit = ["apple", "orange", "lime","watermelon"];
+let fruit = ["apple", "orange", "lime","watermelon"];
 
 out = "<ul>";
 

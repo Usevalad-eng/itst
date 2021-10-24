@@ -39,8 +39,18 @@ https://developer.mozilla.org/ru/docs/Web/API/Element
 
 https://tpverstak.ru/flex-cheatsheet/
 //шпаргалка по флекс
-
+https://www.w3schools.com/jsref/default.asp
 https://developer.mozilla.org/ru/docs/Web/API/Element/classlist
+https://developer.mozilla.org/ru/docs/Web/API
 //поискать совместно с мозиллой 
 https://javascript.ru/forum/events/45546-izmenenie-razmera-shrifta.html
 http://htmlbook.ru/css/text-transform
+https://www.w3schools.com/jsref/met_node_appendchild.asp
+webref.ru
+
+http://old.code.mu/tasks/javascript/dom/prodvinutaya-rabota-s-dom-na-javascript.html
+https://javascript.ru/tutorial/dom/search
+
+https://habr.com/ru/company/macloud/blog/557422/
+//шпаргалка 
+https://basicweb.ru/javascript/js_web_api.php

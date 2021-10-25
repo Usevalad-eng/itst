@@ -100,3 +100,7 @@ X_.style.color = "blue";
 let Y_ = element5.parentNode;//- Найдите  родителя его родителя и покрасьте его в желтый цвет.
 console.log(Y_);
 Y_.style.color = "yellow";
+
+
+//let str = "Hello World!";
+//str.toUpperCase()   // Returns "HELLO WORLD!"

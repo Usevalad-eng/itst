@@ -54,3 +54,5 @@ https://javascript.ru/tutorial/dom/search
 https://habr.com/ru/company/macloud/blog/557422/
 //шпаргалка 
 https://basicweb.ru/javascript/js_web_api.php
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_getelementsbytagname3
+https://www.w3schools.com/Jsref/jsref_touppercase.asp

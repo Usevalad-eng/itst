@@ -50,6 +50,30 @@ for(let i = 0;i < neighbors.length;i++){
 
 }
 
+/*
+for(let i = 0; i < neighbors.length; i++){
+    let neighbor = neighbors.item(i);
+    console.log(neighbor);
+    let span = neighbor.getElementsByTagName("span").item(0);
+    //span.outerHTML = `<b>${span.innerHTML}</b>`;
+    let b = document.createElement("b");//карт 20
+    b.innerHTML = span.innerHTML;
+    neighbor.innerHTML = "";
+    neighbor.appendChild(b);
+}
+*/
+
 let divs_ = document.querySelectorAll(".first-section .fourth-neighbor");
 console.log(divs_);
-divs_.item(0).innerHTML = "я последний хороший сосед";
+divs_.item(0).innerHTML = "я последний хороший сосед";//- замените текст "Я хороший сосед" на "Я последний хороший сосед" у элемента с классом "fourth-neighbor"
+
+
+let element2 = document.getElementById("second-element");//Элемент: #second-element.
+console.log(element2);
+let elements_ = ["пункт1", "пункт2", "пункт3", "пункт4", "пункт5", "пункт6", "пункт7", "пункт8", "пункт9", "пункт10"];
+let out = "<ul>";
+elements_.forEach(function(item){
+    out += `<li>${item}</li>`;
+});
+element2.innerHTML = out;
+

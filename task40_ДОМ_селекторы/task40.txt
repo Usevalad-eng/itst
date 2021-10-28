@@ -29,3 +29,4 @@ https://developer.mozilla.org/ru/docs/Web/API/Element
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_getelementsbytagname3
 https://www.w3schools.com/Jsref/jsref_touppercase.asp
 https://metanit.com/web/html5/5.8.php
+https://learn.javascript.ru/css-why

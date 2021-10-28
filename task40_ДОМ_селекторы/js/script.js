@@ -73,7 +73,36 @@ console.log(element2);
 let elements_ = ["пункт1", "пункт2", "пункт3", "пункт4", "пункт5", "пункт6", "пункт7", "пункт8", "пункт9", "пункт10"];
 let out = "<ul>";
 elements_.forEach(function(item){
-    out += `<li>${item}</li>`;
+    out += `<li>${item}</li>`;  
 });
 element2.innerHTML = out;
 
+//elements_.forEach(function(item){
+ //   item(0).style.color = "red";
+//});
+
+let elementLi = document.getElementsByTagName("li"); //каждый четный пункт покрасить в красный цвет
+console.log(elementLi);
+for(let i = 0;i < 10;i++){
+    if(i % 2 == 0){
+        elementLi.item(i).style.color = "red";
+    }
+}
+elementLi = document.getElementsByTagName("li"); //каждый нечетный пункт - добавить класс odd-element
+console.log(elementLi);
+for(let i = 0;i < 10;i++){
+    if(i % 2 != 0){
+        
+        elementLi.item(i).classList.toggle("odd-element");
+    }
+}
+
+elementLi = document.getElementsByTagName("li");
+let elementLi_ = elementLi.getElementsByClassName("odd-element"); //элементам кратным 3 с классом odd-element увеличить шрифт в 2 раза.
+console.log(elementLi_);
+for(let i = 0;i < 10;i++){
+    if(i % 3 == 0){
+        
+        elementLi_.item(i).style.fontSize = "30 px";//не работает 
+    }
+}

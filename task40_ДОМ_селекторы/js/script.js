@@ -96,7 +96,7 @@ for(let i = 0;i < 10;i++){
         elementLi.item(i).classList.toggle("odd-element");
     }
 }
-
+/*
 elementLi = document.getElementsByTagName("li");
 let elementLi_ = elementLi.getElementsByClassName("odd-element"); //элементам кратным 3 с классом odd-element увеличить шрифт в 2 раза.
 console.log(elementLi_);
@@ -104,5 +104,24 @@ for(let i = 0;i < 10;i++){
     if(i % 3 == 0){
         
         elementLi_.item(i).style.fontSize = "30 px";//не работает 
+    }
+}
+*/
+
+let items = document.querySelectorAll("#second-element ul li");
+for(let i = 0;i < 10;i++){
+    if(i % 3 == 0){
+        
+        items.item(i).style.fontSize = "30px";//работает
+    }
+}
+
+items = document.querySelectorAll("#second-element ul li");
+let items_ = items.getElementsByClassName("odd-element");//почему здесь ошибка
+console.log(items_);
+for(let i = 0;i < 10;i++){
+    if(i % 3 == 0){
+        
+        items_.item(i).style.fontSize = "30px";
     }
 }

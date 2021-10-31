@@ -66,6 +66,7 @@ for(let i = 0; i < strongs.length; i++){
 for(let i = 0; i < strongs.length; i++){
     let words = strongs.item(i).textContent.split(" ");
     strongs.item(i).innerHTML = "";
+    console.log(words);
     words.forEach(function(word){
         let span = document.createElement("span");
         span.textContent = word;

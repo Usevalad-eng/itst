@@ -5,7 +5,8 @@ document.getElementById("calc").onclick = function(){
         let li = document.createElement("li");
         li.textContent = classes[i];
         ol.append(li);
+        document.getElementsByTagName("div").item(0).append(ol);
     }
-    document.getElementsByTagName("div").item(0).append(ol);
+    //document.getElementsByTagName("div").item(0).append(ol);
 }
 

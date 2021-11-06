@@ -8,3 +8,6 @@
 8. Дано: 3 кнопки. При нажатии на любую кнопку, должны меняться цвета 2 оставшихся на случайный цвет.
 
 https://developer.mozilla.org/ru/docs/Web/API/Element/outerHTML
+https://developer.mozilla.org/ru/docs/Web/API/Element/classList
+https://developer.mozilla.org/en-US/docs/Web/API/Location/href
+

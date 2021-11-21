@@ -43,3 +43,15 @@ codecombat.com
 ј теперь давайте перейдЄм к изучению DOM, так как страница Ц это основа всего.
 
 «десь мы рассмотрели основы, наиболее часто используемые и важные действи€ дл€ начала разработки. ѕодробную документацию по инструментам разработки Chrome Developer Tools можно найти на странице https://developers.google.com/web/tools/chrome-devtools. Ћучший способ изучить инструменты Ц походить по разным вкладкам, почитать меню: большинство действий очевидны дл€ пользовател€. ѕозже, когда вы немного их изучите, прочитайте документацию и узнайте то, что осталось.
+
+
+https://javascript.ru/manual
+https://html.spec.whatwg.org/multipage/forms.html#the-select-element.
+—пецификаци€: https://html.spec.whatwg.org/multipage/forms.html.
+
+
+https://basicweb.ru/css/css_vvedenie.php
+https://javascript.ru/tutorial/events/intro#naznachenie-obrabotchikov
+https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceWith
+https://habr.com/ru/company/macloud/blog/557422/
+https://www.w3schools.com/jsref/dom_obj_event.asp

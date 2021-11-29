@@ -19,7 +19,7 @@ document.getElementById("calc2").onclick = function(){
     let y = document.getElementById("b").value;
    
     //y = y.split("-").map(item => item[0] + item[2]).join(".");
-    arr = y.split(" ");
+    arr = y.split(" ").reduce((sum, current) => sum + current);
 
     //function arraySum(array){
         //var sum = 0;

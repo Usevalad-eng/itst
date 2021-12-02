@@ -1,0 +1,11 @@
+﻿//образец
+Дано двумерный массив, описывающий поле: 0 - пустая клетка, 1 - стена. В какой-то клетке поля находится робот.
+Реализовать возможность передвигать робота по пустым клеткам поля с помощью стрелок на клавиатуре.
+
+Создаём игру в крестики нолики 
+https://getbootstrap.com/docs/5.1/forms/form-control/
+https://github.com/Usevalad-eng/itstep
+https://learn.javascript.ru/
+https://www.w3schools.com/jsref/dom_obj_event.asp
+https://getbootstrap.com/docs/5.1/forms/form-control/
+http://htmlbook.ru/samcss/dochernie-selektory

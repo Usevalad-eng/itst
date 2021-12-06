@@ -9,3 +9,10 @@ https://learn.javascript.ru/
 https://www.w3schools.com/jsref/dom_obj_event.asp
 https://getbootstrap.com/docs/5.1/forms/form-control/
 http://htmlbook.ru/samcss/dochernie-selektory
+
+https://learn.javascript.ru/
+https://www.w3schools.com/jsref/default.asp
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/checkValidity
+https://www.internet-technologies.ru/articles/formy-v-html5-javascript-i-api-dlya-prinuditelnoy-validacii-form.html
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/fill
+https://javascript.ru/Math-max

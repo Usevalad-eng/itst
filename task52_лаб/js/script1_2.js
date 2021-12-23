@@ -64,7 +64,7 @@ function intersectArray(a,b){
         return b.includes(item);
     });
     let uniqueIntersect = intersect.filter(function(item, index){
-        return index == intersect.indexOf(item);;
+        return index == intersect.indexOf(item);
     });
 
     return uniqueIntersect;

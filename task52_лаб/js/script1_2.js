@@ -58,7 +58,7 @@ document.getElementById("calc3").onclick = function(){
     
     
 }
-
+//11
 function intersectArray(a,b){
     let intersect = a.filter(function(item){
         return b.includes(item);

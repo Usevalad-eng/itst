@@ -1,2 +1,4 @@
 http://kodesource.top/javascript-exercises/
 //упражнения 
+https://calc.by/math-calculators/prime-factors.html
+https://thecode.media/hire-js/

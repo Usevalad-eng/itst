@@ -1,0 +1,23 @@
+http://kodesource.top/
+http://kodesource.top/javascript-exercises/                     //упражнения по js
+https://ru.hexlet.io/programs/php?utm_source=telegram&utm_medium=cpm&utm_campaign=php&utm_content=gif&utm_term=frontend_hranilishche
+https://proglib.io/p/osvaivaem-instrumenty-qa-inzhenera-ili-kak-ruchnomu-testirovshchiku-rabotat-s-rest-api-2021-09-14
+https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/
+https://developer.chrome.com/docs/devtools/remote-debugging/               //дев консоль в андроиде 
+https://app.gitbook.com/s/-LfO0DfaccZfoHgSVf5l/         //книги 
+
+sass
+http://bologer.ru/podrobnaya-ustanovka-sassscss/
+https://sass-scss.ru/install/
+
+//тайпскрипт 
+https://habr.com/ru/company/macloud/blog/557996/
+https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCbvCwDKgU8JkY7p7ehCTkVDQS2E6gnPCxGcwmZqDSTgzxxWWVoASMFmgYkAAeRJTInN3ymj4d-jSCeNsMq-wuoPaOltigAKoASgAywhK7SbGQZIIz5VWCFzSeCrZagNYbChbHaxUDcCjJZLfSDbExIAgUdxkUBIursJzCFJtXydajBBCcQQ0MwAUVWDEQC0gADVHBQGNJ3KAALygABEAAkYNAMOB4GRonzFBTBPB3AERcwABS0+mM9ysygc9wASmCKhwzQ8ZC8iHFzmB7BoXzcZmY7AYzEg-Fg0HUiQ58D0Ii8fLpDKZgj5SWxfPADlQAHJhAA5SASPlBFQAeS+ZHegmdWkgR1QjgUrmkeFATjNOmGWH0KAQiGhwkuNok4uiIgMHGxCyYrA4PCCJSAA
+https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+https://tproger.ru/translations/course-on-typescript/
+https://tproger.ru/translations/javascript-arrays-best-practices/
+https://tproger.ru/articles/how-to-learn-typescript/
+https://www.typescriptlang.org/
+https://docs.microsoft.com/ru-ru/learn/modules/typescript-get-started/
+http://typescript-lang.ru/docs/Basic%20Types.html
+https://learn.javascript.ru/

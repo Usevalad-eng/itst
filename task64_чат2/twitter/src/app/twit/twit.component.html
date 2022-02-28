@@ -1,0 +1,10 @@
+<div *ngFor="let twit of twits" class="toast show">
+    <div class="toast-header">
+      <strong class="me-auto">{{twit.user1}}</strong>
+      <strong class="me-auto">{{twit.user2}}</strong>
+      <small>{{twit.date.toLocaleString()}}</small>
+    </div>
+    <div class="toast-body">
+        {{twit.text}}
+    </div>
+</div>

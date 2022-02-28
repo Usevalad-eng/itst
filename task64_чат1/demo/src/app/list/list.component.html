@@ -1,0 +1,9 @@
+<div *ngFor="let list of lists" class="toast show">
+    <div class="toast-header">
+      <strong class="me-auto">{{list.user}}</strong>
+      <small>{{list.date.toLocaleString()}}</small>
+    </div>
+    <div class="toast-body">
+        {{list.text}}
+    </div>
+</div>

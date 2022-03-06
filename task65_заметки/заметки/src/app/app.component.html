@@ -13,12 +13,19 @@
                     <textarea class="form-control" id="text" [(ngModel)]="text"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" (click)="addPost()">Добавить</button>
-                <button type="submit" class="btn btn-primary" (click)="delPost()">Удалить</button>
+                <button type="submit" class="btn btn-primary" (click)="delPost(task)">Удалить</button>
             </div>
         </div>
         <div class="twits">
             <div class="col-6">
                 <app-twit [twits]="posts"></app-twit>
+                <ul id="list">
+                    <li *ngFor="let task of posts; let i = index">
+                        {{task}}
+                        
+                        <span class="close" (click)="delPost(task)">×</span>
+                    </li>
+                </ul>    
             </div>
         </div>
     </div>

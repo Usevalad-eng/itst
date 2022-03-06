@@ -8,7 +8,7 @@ import { Twit } from './twit';
 })
 export class AppComponent {
     posts: Twit[] = [];
-
+    task: any;
     user: string = "";
     text: string = "";
     date: string = "";
@@ -29,12 +29,12 @@ export class AppComponent {
     }
     
 
-    delPost(posts:any):void{
-        let index:number = this.posts.findIndex(function(item:void) {
+    delPost(posts:Twit):void{
+        let index:number = this.posts.findIndex(function(item:Twit) {
             item == posts
         });
         if(index !== -1){
-            this.posts.splice(index, 1);
+            this.posts.splice(index);
         }
     }
 }

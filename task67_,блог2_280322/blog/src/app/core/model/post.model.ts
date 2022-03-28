@@ -1,4 +1,3 @@
-
 export interface Post {
     id: number,
     title: string;
@@ -6,6 +5,5 @@ export interface Post {
     fullText: string;
     picture: string;
     date: Date;
-    userID: string;
-   
+    userId: number;
 }

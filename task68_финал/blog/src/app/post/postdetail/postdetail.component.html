@@ -1,0 +1,39 @@
+
+
+<p>{{post.title}}</p>
+<p>{{post.date | date:'dd.MM.yyyy'}}</p>
+<p>{{getUserName(post.userId)}}</p>
+<p>{{post.fullText}}</p>
+<img [src]="post.picture" [alt]="post.title">
+<a [routerLink]="['/post']"> Назад </a>
+<div *ngFor="let comment of comments">
+    <p>{{getUserName(comment.userId)}}</p>
+    <p>
+      {{comment.date | date:'dd.MM.yyyy'}}  
+    </p>
+    <p>{{comment.text}}</p>
+    
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+          <form class="row" [formGroup]="form" novalidate (ngSubmit)="addComment()">
+              
+              
+              <div class="col-6">
+                  <div class="mb-3">
+                      <label for="article_fullText" class="form-label">Мой комментарий</label>
+                      <textarea name="fullText" formControlName="text" class="form-control" id="article_fullText" rows="3"></textarea>
+                  </div> 
+                  <div *ngIf="form.controls['fullText'].invalid && form.controls['fullText'].touched" class="alert alert-danger">
+                      Обязательное поле
+                  </div>       
+              </div>
+              <div class="col-12">
+                  <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Отправить</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>

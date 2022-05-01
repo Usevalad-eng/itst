@@ -7,11 +7,11 @@ export class PostService {
     data: Array<Post> = [
         {
             id: 1,
-            title: "Моя статья", 
+            title: "Мой инстаграм", 
             userId: 1, 
             date: new Date(), 
-            previewText: "Моя первая статья",
-            fullText: "Моя первая статья. Полный текст",
+            previewText: "Моя первый снимок",
+            fullText: "Мой первый снимок. Полный абзац",
             picture: "https://avatars.mds.yandex.net/i?id=9e6757cd6c582ba4db9b68bc6a98055e-5906237-images-thumbs&n=13"
         }
     ];

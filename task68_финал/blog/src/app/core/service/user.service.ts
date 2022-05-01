@@ -8,13 +8,13 @@ export class UserService {
     data: Array<User> = [
         {
             id: 1,
-            name: 'Вася Пупкин',
+            name: 'Вася Админов',
             login: "admin",
             password: "12345"
         },
         {
             id: 2,
-            name: 'Петя Ножкин',
+            name: 'Петя Юзеров',
             login: "user",
             password: "qwerty"
         },

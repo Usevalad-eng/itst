@@ -7,6 +7,7 @@ import { ArticleService } from '../article.service';
   templateUrl: './article.component.html',
   styleUrls: ['./article.component.scss']
 })
+
 export class ArticleComponent implements OnInit {
 
     constructor(private service:ArticleService) { 
